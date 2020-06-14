@@ -60,6 +60,8 @@ nav {
   margin: 1.5em 0 0 0;
   transform: scale(0.96);
   border-radius: 1%;
+  padding: 0.9em 0;
+  filter: drop-shadow(1px 12px 50px #000);
 }
 
 .nav__list li {
@@ -74,9 +76,10 @@ nav {
 .nav__link {
   text-decoration: none;
   color: $primary-blue;
+  font-size: 18px;
 }
 
-.nav__link.btn {
+.nav__item--btn {
   display: none;
 }
 

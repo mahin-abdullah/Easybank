@@ -4,6 +4,32 @@
   background-size: cover;
 }
 
-header {
-  font-family: "Public Sans", sans-serif;
+.hero {
+  .hero__content {
+    margin: 2.5em 0;
+  }
+
+  .hero__content h1 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .hero__content p {
+    font-size: 15px;
+    line-height: 1.63;
+  }
+
+  .hero__cta {
+    margin: 3em 0;
+    text-align: center;
+  }
+
+  .btn {
+    background: linear-gradient(to right, $primary-lime, $primary-ocean);
+    color: #fff;
+    padding: 0.85em 2em;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+  }
 }
