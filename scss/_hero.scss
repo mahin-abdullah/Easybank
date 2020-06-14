@@ -5,6 +5,8 @@
 }
 
 .hero {
+  padding: 0 0 3em 0;
+
   .hero__content {
     margin: 2.5em 0;
   }
@@ -31,5 +33,12 @@
     border: none;
     border-radius: 50px;
     text-decoration: none;
+    transition: all 350ms ease-in-out;
+    font-weight: 400;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    letter-spacing: 1px;
   }
 }

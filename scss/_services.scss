@@ -1,0 +1,30 @@
+.services {
+  padding: 3em 0;
+  background: $neutral-light-gray;
+
+  .services__intro h2,
+  .services__intro p {
+    text-align: center;
+  }
+  .services__intro p {
+    line-height: 1.6;
+    margin: 0 0 2.5em 0;
+  }
+
+  .col h5 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+  }
+
+  .col p {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 2.8em;
+  }
+
+  .services__img {
+    text-align: center;
+    padding: 1em 0;
+  }
+}
