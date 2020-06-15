@@ -1,0 +1,33 @@
+.articles {
+  padding: 4em 0;
+  background: $neutral-light-gray;
+
+  .articles__intro {
+    text-align: center;
+  }
+
+  .card {
+    background: #fff;
+    margin: 2.5em 0 4em 0;
+    filter: drop-shadow(1px 9px 15px #cfd9de);
+    border-radius: 8px;
+
+    .author {
+      font-size: 12px;
+      margin: 2em 2em 0;
+    }
+
+    .card__title {
+      margin: 0.7em 1.4em;
+      color: $primary-blue;
+      font-size: 17px;
+    }
+
+    .card__content {
+      margin: 1em 1.69em;
+      font-size: 14px;
+      padding: 0 0 3.2em;
+      line-height: 1.4;
+    }
+  }
+}
