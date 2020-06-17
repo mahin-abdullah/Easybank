@@ -20,7 +20,6 @@ ul {
 }
 
 .container {
-  // max-width: 1300px; //
   width: 90%;
   margin: 0 auto;
 
@@ -28,7 +27,9 @@ ul {
   position: relative;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
 }

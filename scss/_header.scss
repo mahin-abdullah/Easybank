@@ -1,6 +1,8 @@
 header {
   background: $neutral-white;
   padding: 1em 0;
+  position: relative;
+  z-index: 999;
 }
 
 .logo {
@@ -155,6 +157,10 @@ nav {
   .nav__list {
     width: 50%;
     margin: 0 auto;
+  }
+
+  .nav__item {
+    margin: 0 1em;
   }
 
   .nav__item.nav__item--btn {
