@@ -34,3 +34,14 @@ ul {
     justify-content: space-between;
   }
 }
+
+@media (min-width: 1100px) {
+  .row__lg {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col + .col {
+    margin-left: 2.5em;
+  }
+}

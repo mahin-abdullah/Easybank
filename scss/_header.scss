@@ -139,11 +139,17 @@ nav {
     padding: 0.5em 0;
   }
 
-  .logo,
-  .nav__list,
-  .nav__item.nav__item--btn {
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav__list {
     display: flex;
     justify-content: center;
+  }
+  .nav__item.nav__item--btn {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .logo {
