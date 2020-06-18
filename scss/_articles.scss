@@ -31,3 +31,28 @@
     }
   }
 }
+
+@media (min-width: 590px) {
+  .card.two,
+  .card.four {
+    margin-left: 1.2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .card.two,
+  .card.four {
+    margin-left: 2em;
+  }
+}
+
+@media (min-width: 1180px) {
+  .card.two,
+  .card.four {
+    margin-left: 0;
+  }
+
+  .card + .card {
+    margin-left: 2em;
+  }
+}

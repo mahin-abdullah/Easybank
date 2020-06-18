@@ -28,6 +28,17 @@ ul {
   position: relative;
 }
 
+@media (min-width: 590px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "one two"
+      "three four";
+  }
+}
+
 @media (min-width: 992px) {
   .row {
     display: flex;
@@ -43,5 +54,12 @@ ul {
 
   .col + .col {
     margin-left: 2.5em;
+  }
+}
+
+@media (min-width: 1180px) {
+  .row__card {
+    display: flex;
+    justify-content: space-between;
   }
 }
